@@ -21,7 +21,7 @@ const Exp = () => {
             <p className='text-gray-500 text-[18px] sm:w-1/3'>Avg 2023 - Present</p>
             <div className='flex flex-col gap-3'>
                 <p className='text-[18px] tracking-wide'>Freelance - Fullstack Developer</p>
-                <p className='text-gray-500  tracking-widest'>As a freelance web developer, I bring passion, creativity, and expertise to every project I undertake. With 2 years of experience in the industry,  I've had the privilege of collaborating with a diverse range of clients, from startups to established businesses.</p>
+                <p className='text-gray-500  tracking-widest'>As a freelance web developer, I bring passion, creativity, and expertise to every project I undertake. With 3 years of experience in the industry,  I've had the privilege of collaborating with a diverse range of clients, from startups to established businesses.</p>
                 <div className='flex flex-row flex-wrap gap-2 mx-8 sm:mx-0 justify-center items-center sm:justify-start'>
                     {skills.map((skill, index) => {
                         return(

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 const Footer = () => {
@@ -13,11 +14,12 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-3 justify-center items-center mt-5 sm:mt-0">
-                <Image src='/assets/instagram.svg' width={20} height={20} className="invert "/>
-
-                <Image src='/assets/linkedin.svg' width={20} height={20} className="invert"/>
-
-                <Image src='/assets/white.png' width={20} height={20} />
+                <Link href='https://www.instagram.com/pavle.dev/'>  <Image  src='/assets/instagram.svg' width={20} height={20} className="invert "/></Link>
+              
+                <Link href='https://www.linkedin.com/in/kowy-dev/'> <Image src='/assets/linkedin.svg' width={20} height={20} className="invert"/></Link>
+                
+                <Link href='https://github.com/KowyXYZ'> <Image src='/assets/white.png' width={20} height={20} /></Link>
+                
             </div>
         </div>
     </div>

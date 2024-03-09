@@ -21,7 +21,8 @@ const Skillset = () => {
         "Docker",
         "Three.js",
         "Redux",
-        "Express"
+        "Express",
+        "Solidity"
       ];
 
 

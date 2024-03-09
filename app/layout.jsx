@@ -4,7 +4,11 @@ import '../styles/globals.css'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Kowy | Portfolio'
+  title: 'Kowy | Portfolio',
+  description: "Im full-stack developer with 3 years of experience",
+  icons: {
+    icon: '/logo.ico'
+  }
 }
 
 const layout = ({children}) => {
