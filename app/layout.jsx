@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Kowy | Portfolio',
   description: "Im full-stack developer with 3 years of experience",
   icons: {
-    icon: '/logo.ico'
+  icon: ['/favicon.ico']
   }
 }
 
